@@ -78,7 +78,7 @@ a:hover {
 /* -------------------------------------------------------------- MAIN -- */
 
 .main {
-       margin: 0px 0 15px 0;
+       margin: 15px;
 }
 
 
@@ -111,7 +111,7 @@ a:hover {
         padding-left: 10px;
         border-left: solid 1px black;
         background-color: white;
-        margin-left: 30px !important;  
+        margin: 15px;  
         display: flex;  
         flex-direction: column;
         justify-content: space-between;
@@ -133,20 +133,12 @@ a:hover {
     width: 100%;
 }
 
-
-/* .about:hover, .contact:hover, .cardx:hover {
-
-            background: rgb(13,35,54);
-            background: linear-gradient(180deg, rgba(13,35,54,0.2) 0%, rgba(84,146,199,0.2) 31%, rgba(255,226,163,0.2) 73%, rgba(235,188,87,0.2) 88%);
-            background-color: white;
-} */
-
 /* -------------------------------------------------------------- CONTACT --  */
 
 .talents {
           height: 100%;
           background-color: white;
-          margin-right: 30px !important;
+          margin: 15px;
 }
 
 .skills {
