@@ -10,6 +10,7 @@
 
 a {
     color:#222;
+    text-decoration: underline;
 }
 
 a:hover {
@@ -32,8 +33,10 @@ a:hover {
             float: left;
             padding-bottom: 0px;
             margin-left: 5%;
-            /* color: #DDD; */
+}
 
+.header h1 a {
+    text-decoration: none;
 }
 
 #bridge { 
@@ -238,7 +241,7 @@ a:hover {
 
 .project-card:hover #balloon{
     width: 30%;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
 
 }
 
