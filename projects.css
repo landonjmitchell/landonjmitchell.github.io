@@ -1,0 +1,181 @@
+.container { 
+            padding: 0;
+            background-color: black;
+            max-width: 1000px;
+            min-height: 1200px;
+            font-family: 'Muli', sans-serif;
+            color: #222;
+
+}
+
+a {
+    color:#222;
+}
+
+a:hover {
+    color: rgb(208, 55, 55)
+}
+
+h2 {
+    font-family: 'Amatic SC', cursive;
+}
+
+h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 22px;
+}
+
+
+/* ------------------------------------------------------ HEADER -- */
+
+.header {
+         background-color: white;
+         font-family: 'Amatic SC', cursive;
+         padding-top: 10px;
+         margin: 0;
+         position: relative;
+}
+
+.header h1 {
+            float: left;
+            padding-bottom: 0px;
+            margin-left: 5%;
+            /* color: #DDD; */
+
+}
+
+#bridge { 
+             width: 100%;
+             height: 100%;
+             object-fit: cover;
+}
+
+#photog {
+    width: 4%;
+    position: absolute;
+    bottom: 6.5%;
+    right: 11%;
+    z-index: 0;
+
+}
+
+
+
+/* ---------------------------------------------------------- NAV LIST -- */
+
+.navlist {
+    float: right;
+    font-size: 22px;
+    list-style-type: none;
+    text-align: right;
+}
+
+.navlist li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+}
+
+.selected {
+    color: rgb(208, 55, 55)
+}
+
+/* --------------------------------------------------------- */
+
+.project-title {
+    margin-left: 30px;
+    color:white;
+    margin-bottom: 0;
+}
+.project {
+    margin: 15px;
+    color: #222
+}
+
+.project p {
+    font-size: 13px;
+}
+
+.details {
+    background-color: white;
+    margin: 15px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+
+.section {
+    background-color: white;
+    padding: 15px;
+}
+
+.section ul {
+    list-style: none;
+    font-size: 13px;
+    padding-left: 0px;
+}
+
+.small-img img {
+    width: 100%;
+    max-width: 210px;
+    padding-bottom: 15px;
+}
+
+.large-img img{
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.caption {
+    font-size: 10px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.card-footer {
+              width: 100%;
+              padding: 0;
+              float: bottom;
+              background: transparent;
+              border: none;
+              overflow: hidden;
+}
+
+.card-footer img {
+                width: 100%;
+                float: bottom;
+}
+
+.auto-resizable-iframe {
+  max-width: 420px;
+  margin: 0px auto;
+}
+
+.auto-resizable-iframe > div {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0px;
+}
+
+.auto-resizable-iframe iframe {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+
+  .details,  .details:nth-child(even)  {
+        margin: 0px 15px 0px 15px;
+  }
+
+  .project-title  {
+      margin-left: 15px;
+  }
+}

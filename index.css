@@ -1,0 +1,393 @@
+.container { 
+            padding: 0;
+            background-color: black;
+            max-width: 1000px;
+            min-height: 1200px;
+            font-family: 'Muli', sans-serif;
+            color: #222;
+
+}
+
+a {
+    color:#222;
+}
+
+a:hover {
+    color: rgb(208, 55, 55)
+}
+
+
+
+ /* ------------------------------------------------------ HEADER -- */
+
+.header {
+         background-color: white;
+         font-family: 'Amatic SC', cursive;
+         padding-top: 10px;
+         margin: 0;
+         position: relative;
+}
+
+.header h1 {
+            float: left;
+            padding-bottom: 0px;
+            margin-left: 5%;
+            /* color: #DDD; */
+
+}
+
+#bridge { 
+             width: 100%;
+             height: 100%;
+             object-fit: cover;
+}
+
+#photog {
+    width: 4%;
+    position: absolute;
+    bottom: 6.5%;
+    right: 11%;
+    z-index: 0;
+
+}
+
+
+
+
+/* ---------------------------------------------------------- NAV LIST -- */
+
+.navlist {
+    float: right;
+    font-size: 22px;
+    list-style-type: none;
+    text-align: right;
+}
+
+.navlist li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+}
+
+
+
+
+
+/* -------------------------------------------------------------- MAIN -- */
+
+.main {
+       margin: 0px 0 15px 0;
+}
+
+
+.main h2 {
+           font-size: 26px;
+           margin-bottom: 10px;
+           font-family: 'Amatic SC', cursive;
+}
+
+.main h3 {
+           font-size: 15px;
+           margin-bottom: 5px
+}
+
+.main h4 {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.main p{
+         font-size: 13px;
+}
+
+
+
+/* ---------------------------------------------------------------- ABOUT -- */
+
+
+.about {
+        padding-left: 10px;
+        border-left: solid 1px black;
+        background-color: white;
+        margin-left: 30px !important;  
+        display: flex;  
+        flex-direction: column;
+        justify-content: space-between;
+}
+
+.about-content {
+    width: 100%;
+    padding: 20px;
+}
+
+.about-footer {
+    border: 0;
+    float: bottom;
+    width: 100%;
+}
+
+.about-footer img{
+    float: bottom;
+    width: 100%;
+}
+
+
+/* .about:hover, .contact:hover, .cardx:hover {
+
+            background: rgb(13,35,54);
+            background: linear-gradient(180deg, rgba(13,35,54,0.2) 0%, rgba(84,146,199,0.2) 31%, rgba(255,226,163,0.2) 73%, rgba(235,188,87,0.2) 88%);
+            background-color: white;
+} */
+
+/* -------------------------------------------------------------- CONTACT --  */
+
+.talents {
+          height: 100%;
+          background-color: white;
+          margin-right: 30px !important;
+}
+
+.skills {
+    padding-right: 15px;
+}
+
+.skill.col {
+    padding-right: 0px !important;
+}
+
+.talents ul {
+          margin:   0px 0 15px 0;
+          padding-left: 20px;
+          list-style: square;
+          min-width: 100px;
+        /* list-style-position: inside; */
+
+}
+
+.talents li {
+             padding-left: 0px;
+             padding-bottom: 2px;
+             font-size: 12px;
+             
+}
+
+/* ------------------------------------------------------------ MORE ABOUT -- */
+
+.more-about {
+             color: #CCC;
+             margin: 20px;
+}
+
+.more-about h2 {
+                font-size: 22px;
+                font-family: 'Amatic SC', cursive;
+}
+
+.more-about p {
+               font-size: 13px;
+}
+
+
+
+/* -------------------------------------------------------------- CARDS -- */
+
+.cards {
+        margin-left: 15px;
+        margin-right: 15px;
+}
+
+.cardx {
+    background-color: white;
+    margin: 15px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+
+}
+
+.cards h2 {
+           font-size: 28px;
+           font-family: 'Amatic SC', cursive;
+}
+
+.cards p {
+          font-size: 13px;
+}
+
+.card-body {
+             padding-bottom: 5px;
+}
+
+.spacer {
+    float: right;
+    margin-right: 5px;
+    width: 30%;
+    height: 100%
+}
+
+#balloon {
+           position: absolute;
+           bottom: 10%;
+           right: 20px;
+           width: 20%;
+           margin-bottom: 10%;
+           transition: width 3s, margin-bottom 3s;
+           transition-timing-function: ease-in;
+}
+
+.project-card:hover #balloon{
+    width: 30%;
+    margin-bottom: 15%;
+
+}
+
+#flamingo {
+           position: absolute;
+           bottom: 0;
+           right: 5px;
+           width: 30%;
+           filter: blur(5px);
+           transition: filter 1.5s;
+           transition-timing-function: ease-out;
+}
+
+
+#grass-blur {
+    filter: blur(0px);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    transition: filter 1s;
+    transition-timing-function: ease-out;
+}
+
+
+.photos-card:hover #flamingo {
+        filter: blur(0px);
+}
+
+.photos-card:hover #grass-blur {
+        filter: blur(5px);
+}
+
+#plane {
+    position: absolute;
+    right: 0;
+    bottom:40%;
+    margin-right: -25px;
+    width: 5%;
+    transition: margin-right 5s, width 5s;
+    transition-timing-function: ease-in;
+    transform: rotateY(180deg)
+
+
+}
+
+.experience-card:hover #plane {
+    margin-right: 30%;
+    width: 0%;
+    transform: rotateY(0deg);
+    transition-timing-function: ease-out;
+}
+
+#birds {
+    position: absolute;
+    bottom: 15%;
+    right: 0;
+    width: 45%;
+    margin-right: -25%;
+    transition: margin-right 4s;
+    transition-timing-function: linear;
+
+}
+
+.education-card:hover #birds {
+    margin-right: -5%;
+}
+
+.card-footer {
+              width: 100%;
+              padding: 0;
+              float: bottom;
+              background: transparent;
+              border: none;
+              overflow: hidden;
+}
+
+.card-footer img {
+                width: 100%;
+                float: bottom;
+}
+
+
+/* ---------------------------------------------------------------- FOOTER -- */
+
+
+.footer {
+             color: #222;
+             padding: 15px 15px 0 15px;
+             margin: 0;
+             background-color: white;
+             width: 100%;   
+}
+
+.footer h2 {
+                font-size: 22px;
+                font-family: 'Amatic SC', cursive;
+                margin-bottom: 10px;
+}
+
+.footer h3 {
+    font-size: 15px;
+}
+
+.footer p {
+               font-size: 13px;
+}
+
+.footer-img {
+            float: bottom;
+            width: 100%;
+            margin-top: 40px;
+}
+
+.more {
+    font-size: 13px;
+    list-style: square;
+    padding-left: 20px;
+}
+
+.item {
+    margin-bottom: 10px;
+}
+
+.item h3 {
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+.item p {
+    margin-bottom: 0px;
+}
+
+.final-image {
+    float: bottom;
+    width: 100%;
+    filter: invert(100%);
+    transform: rotateY(180deg);
+    background: black;
+}
+
+
+@media only screen and (max-width: 500px) {
+
+  .about {
+      margin-left: 16px !important;
+  }
+
+  .contact {
+      margin-right: 16px !important;
+  }
+
+}

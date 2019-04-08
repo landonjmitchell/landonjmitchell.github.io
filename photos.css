@@ -1,0 +1,113 @@
+.container { 
+            padding: 0;
+            background-color: black;
+            max-width: 1000px;
+            min-height: 1200px;
+            font-family: 'Muli', sans-serif;
+            color: #222;
+
+}
+
+a {
+    color:#222;
+}
+
+a:hover {
+    color: rgb(208, 55, 55)
+}
+
+
+
+ /* ------------------------------------------------------ HEADER -- */
+
+.header {
+         background-color: white;
+         font-family: 'Amatic SC', cursive;
+         padding-top: 10px;
+         margin: 0;
+         position: relative;
+}
+
+.header h1 {
+            float: left;
+            padding-bottom: 0px;
+            margin-left: 5%;
+            /* color: #DDD; */
+
+}
+
+#bridge { 
+             width: 100%;
+             height: 100%;
+             object-fit: cover;
+}
+
+#photog {
+    width: 4%;
+    position: absolute;
+    bottom: 6.5%;
+    right: 11%;
+    z-index: 0;
+
+}
+
+
+
+
+/* ---------------------------------------------------------- NAV LIST -- */
+
+.navlist {
+    float: right;
+    font-size: 22px;
+    list-style-type: none;
+    text-align: right;
+}
+
+.navlist li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+}
+
+.selected {
+    color: rgb(208, 55, 55)
+}
+
+
+/* ---------------------------------------------------------- PHOTOS -- */
+
+.info {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.info h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.double, .triple, .single {
+    margin: 0 15px 0 15px;
+}
+
+.photo {
+    background-color: white;
+    margin: 15px;
+    padding: 0;
+}
+
+
+.photo img {
+    width: 100%;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .double, .triple, .single {
+        margin: 0 0px 0 0px;
+    }
+  
+}
