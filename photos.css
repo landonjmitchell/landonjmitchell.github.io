@@ -10,6 +10,7 @@
 
 a {
     color:#222;
+    text-decoration: underline;
 }
 
 a:hover {
@@ -32,8 +33,10 @@ a:hover {
             float: left;
             padding-bottom: 0px;
             margin-left: 5%;
-            /* color: #DDD; */
+}
 
+.header h1 a {
+    text-decoration: none;
 }
 
 #bridge { 
