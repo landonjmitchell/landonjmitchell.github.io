@@ -222,12 +222,12 @@ a:hover {
              padding-bottom: 5px;
 }
 
-.spacer {
+/* .spacer {
     float: right;
     margin-right: 5px;
     width: 30%;
     height: 100%
-}
+} */
 
 #balloon {
            position: absolute;
@@ -242,7 +242,10 @@ a:hover {
 .project-card:hover #balloon{
     width: 30%;
     margin-bottom: 10%;
+}
 
+.project-card p {
+    width: 70%; 
 }
 
 #flamingo {
@@ -272,6 +275,10 @@ a:hover {
 
 .photos-card:hover #grass-blur {
         filter: blur(5px);
+}
+
+.photos-card p {
+    width: 60%; 
 }
 
 #plane {
