@@ -177,8 +177,8 @@ h3 {
 
 @media only screen and (max-width: 500px) {
 
-  .details,  .details:nth-child(even)  {
-        margin: 0px 15px 0px 15px;
+  .project {
+      margin: 0;
   }
 
   .project-title  {
