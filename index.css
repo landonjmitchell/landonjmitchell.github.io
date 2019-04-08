@@ -384,12 +384,12 @@ a:hover {
 
 @media only screen and (max-width: 500px) {
 
-  .about {
-      margin-left: 16px !important;
+  .main {
+      margin: 0;
   }
 
-  .contact {
-      margin-right: 16px !important;
+  .cards {
+      margin: 0;
   }
 
 } 
