@@ -167,9 +167,21 @@ a:hover {
 
 /* ------------------------------------------------------------ MORE ABOUT -- */
 
+.more-about.title {
+            margin-bottom: 0;
+            margin-top: 30px;
+}
+
 .more-about {
              color: #CCC;
              margin: 20px;
+}
+
+.more-about h1 {
+                font-size: 26px;
+                font-family: 'Amatic SC', cursive;
+                margin-bottom: 0;
+                padding-bottom: 0;
 }
 
 .more-about h2 {

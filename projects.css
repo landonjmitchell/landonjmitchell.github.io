@@ -100,15 +100,24 @@ h3 {
     font-size: 13px;
 }
 
-.details {
+.col {
     background-color: white;
     margin: 15px;
     min-width: 300px;
     padding: 0;
+}
+
+.details {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     overflow: hidden;
+}
+
+.col h2 {
+    color: white;
+    background-color: black;
+    margin: 0;
 }
 
 
@@ -143,8 +152,7 @@ h3 {
 .card-footer {
               width: 100%;
               padding: 0;
-              float: bottom;
-              background: transparent;
+              background: white;
               border: none;
               overflow: hidden;
 }
