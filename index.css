@@ -200,6 +200,10 @@ a:hover {
     margin-bottom: 100px;
 }
 
+.all-cards-col {
+    padding: 0;
+}
+
 .cards {
         margin:20px
 }
