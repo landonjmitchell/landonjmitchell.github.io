@@ -196,17 +196,11 @@ a:hover {
 /* -------------------------------------------------------------- CARDS -- */
 
 .all-cards {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin: 100px 0 100px 0;
+    
 }
 
-.all-cards-col {
-    padding: 0;
-}
 
-.cards {
-        margin:20px
-}
 
 .cardx {
     background-color: white;
