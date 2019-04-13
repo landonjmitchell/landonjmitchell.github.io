@@ -109,6 +109,10 @@ a:hover {
 
 @media only screen and (max-width: 500px) {
 
+    #photog {
+    bottom: 3%;
+    }
+
     .double, .triple, .single {
         margin: 0 0px 0 0px;
     }

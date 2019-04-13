@@ -66,19 +66,30 @@ a:hover {
     text-align: right;
 }
 
+.navlist ul {
+    margin: 0;
+}
+
 .navlist li {
     display: inline;
     padding: 0px 10px 0px 10px;
 }
 
-
+.sub-nav {
+    font-family: 'Muli', sans-serif;
+    font-size: 11px;
+    align-content: center;
+    text-align: center;
+    color: #333;
+    padding-right: 20px;
+}
 
 
 
 /* -------------------------------------------------------------- MAIN -- */
 
 .main {
-       margin: 15px;
+       margin: 0px 15px 15px 15px;
 }
 
 
@@ -150,36 +161,24 @@ a:hover {
 }
 
 .talents ul {
-          margin:   0px 0 15px 0;
+          margin: 0px 0 15px 0;
           padding-left: 18px;
           list-style: square;
           min-width: 100px;
-
 }
 
 .talents li {
              padding-left: 0px;
              padding-bottom: 2px;
              font-size: 12px;
-             
 }
 
 /* ------------------------------------------------------------ MORE ABOUT -- */
 
-.more-about.title {
-            margin-bottom: 0;
-            margin-top: 30px;
-}
 
-.more-about.title h1 {
-                font-size: 26px;
-                font-family: 'Amatic SC', cursive;
-                margin-bottom: 0;
-                padding-bottom: 0;
-}
 .more-about {
              color: #CCC;
-             margin: 20px;
+             margin: 100px 20px 100px 20px;
 }
 
 
@@ -196,9 +195,13 @@ a:hover {
 
 /* -------------------------------------------------------------- CARDS -- */
 
+.all-cards {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 .cards {
-        margin-left: 15px;
-        margin-right: 15px;
+        margin:20px
 }
 
 .cardx {
@@ -340,7 +343,7 @@ a:hover {
 
 .footer {
              color: #222;
-             padding: 15px 15px 0 15px;
+             padding: 100px 15px 100px 15px;
              margin: 0;
              background-color: white;
              width: 100%;   
@@ -412,5 +415,11 @@ a:hover {
   .cards {
       margin: 0;
   }
+
+  .sub-nav {
+    padding-right: 0px;
+    max-width: 150px;
+    margin: 0 
+}
 
 } 

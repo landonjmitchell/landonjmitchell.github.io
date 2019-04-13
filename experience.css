@@ -72,11 +72,94 @@ a:hover {
 }
 
 
-.construction {
-    color: #ccc;
-    padding-left: 20px;
+/* ----------------------------------------------------------- Experience */
+
+.double, .single, .other{
+    margin: 20px;
 }
 
-.construction a {
-    color: #CCC
+.company {
+
+        margin: 10px;
+        padding: 0;
+
+
 }
+
+.company-body {
+    background-color: white;
+    color: black;
+    margin: 0;
+    display: flex;  
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.company-name {
+    background-color: black;
+    color: white;
+}
+
+.company-name h2 {
+           font-size: 28px;
+           margin-bottom: 10px;
+           font-family: 'Amatic SC', cursive;
+}
+
+.jobs {
+    margin: 0;
+}
+
+.job-description {
+    padding: 20px;
+    font-size: 13px;
+    min-width: 250px;   
+}
+
+.job-description h3, .other-job-description h3 {
+        font-size: 22px;
+        font-family: 'Amatic SC', cursive;
+}
+
+.job-description h4, .other-job-description h4 {
+    font-size: 13px;
+}
+
+.other-company-body {
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 0;
+}
+
+.other-job-description {
+        padding: 10px;
+        font-size: 13px;    
+        min-width: 100px;
+}
+
+.company-footer {
+        width: 100%;
+        margin: 0px
+}
+
+.company-footer img {
+    width: 100%;
+
+}
+
+.company-img {
+    margin: 0;
+    padding: 0px
+}
+
+@media only screen and (max-width: 500px) {
+
+    #photog {
+    bottom: 3%;
+    }
+    .double, .single, .other{
+    margin: 0px;
+    }
+} 

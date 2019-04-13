@@ -72,11 +72,161 @@ a:hover {
 }
 
 
-.construction {
-    color: #ccc;
-    padding-left: 20px;
+
+
+
+/* -------------------------------------------------------------- MAIN -- */
+
+.main {
+       margin: 0 15px 0 15px;
 }
 
-.construction a {
-    color: #CCC
+
+.main h2 {
+           font-size: 26px;
+           margin-bottom: 10px;
+           font-family: 'Amatic SC', cursive;
 }
+
+.main h3 {
+            font-family: 'Amatic SC', cursive;
+           font-size: 24px;
+           margin-bottom: 5px
+}
+
+.main h4 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.main h5 {
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.main p{
+         font-size: 13px;
+}
+
+
+
+/* ---------------------------------------------------------------- ABOUT -- */
+
+
+.about {
+        padding-left: 10px;
+        border-left: solid 1px black;
+        background-color: white;
+        margin: 0 15px 15px 15px;  
+        display: flex;  
+        flex-direction: column;
+        justify-content: space-between;
+}
+
+.about-content {
+    width: 100%;
+    padding: 20px 20px 0 20px;
+}
+
+.about-footer {
+    border: 0;
+    float: bottom;
+    width: 100%;
+}
+
+.about-footer img{
+    float: bottom;
+    width: 100%;
+}
+
+/* -------------------------------------------------------------- TALENTS --  */
+
+.talents {
+          height: 100%;
+          background-color: white;
+          margin: 0 15px 0 15px;
+}
+
+.skills {
+    padding-right: 15px;
+}
+
+.skill {
+    margin-top: 10px;
+}
+
+.talents ul {
+          margin: 0px 0 15px 0;
+          padding-left: 18px;
+          list-style: square;
+          min-width: 150px;
+}
+
+.talents li {
+             padding-left: 0px;
+             padding-bottom: 2px;
+             font-size: 12px;
+}
+
+/* ------------------------------------------------------------ MORE ABOUT -- */
+
+.more-about.title {
+            margin-bottom: 0;
+            margin-top: 30px;
+}
+
+.more-about.title h1 {
+                font-size: 26px;
+                font-family: 'Amatic SC', cursive;
+                margin-bottom: 0;
+                padding-bottom: 0;
+}
+.more-about {
+             color: #CCC;
+             margin: 20px;
+}
+
+
+.more-about h2 {
+                font-size: 22px;
+                font-family: 'Amatic SC', cursive;
+}
+
+.more-about p {
+               font-size: 13px;
+}
+
+
+.project-header {
+    font-family: 'Amatic SC', cursive;
+    margin-left: 30px;
+    color:white;
+    margin-bottom: 0;
+}
+
+.project-header div.col-sm {
+    padding: 0;
+}
+
+.project-header h2 {
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding: 0 !important;
+}
+
+
+@media only screen and (max-width: 500px) {
+
+  #photog {
+      bottom: 3%;
+  }
+
+  .main {
+      margin: 0;
+  }
+
+  .cards {
+      margin: 0;
+  }
+
+} 

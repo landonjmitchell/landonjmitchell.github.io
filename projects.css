@@ -23,7 +23,7 @@ h2 {
 
 h3 {
     font-family: 'Amatic SC', cursive;
-    font-size: 22px;
+    font-size: 24px;
 }
 
 
@@ -88,6 +88,7 @@ h3 {
 
 .project-title {
     margin-left: 30px;
+    margin-top: 20px;
     color:white;
     margin-bottom: 0;
 }
@@ -192,6 +193,10 @@ h3 {
 
 
 @media only screen and (max-width: 500px) {
+
+    #photog {
+    bottom: 3%;
+    }
 
   .project {
       margin: 0;
