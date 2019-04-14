@@ -1,5 +1,5 @@
 .container { 
-            padding: 0;
+            padding: 0 0 50px 0;
             background-color: black;
             max-width: 1000px;
             min-height: 1200px;
@@ -33,7 +33,7 @@ h3 {
          background-color: white;
          font-family: 'Amatic SC', cursive;
          padding-top: 10px;
-         margin: 0;
+         margin: 10px 0 30px 0;
          position: relative;
 }
 
@@ -86,98 +86,96 @@ h3 {
 
 /* --------------------------------------------------------- */
 
-.project-header {
+.section-header {
+    color: white;
     margin: 0;
 }
 
-.project-title {
-    margin-left: 15px;
-    margin-top: 20px;
-    color:white;
-    margin-bottom: 0px;
-    font-size: 28px;
-}
-.project {
-    margin: 0 15px 15px 15px;
-    color: #222;
+.section-title {
+    padding-left: 30px;
 }
 
-.project p {
+.inner-title {
+    padding-left: 0;
+}
+
+.section-title h2, .inner-title h2 {
+    font-family: 'Amatic SC', cursive;  
+    font-size: 28px;
+}
+
+/* ---------------------------------------------------------- */
+
+.section {
+    margin: 0 15px 0 15px;
     font-size: 13px;
 }
 
-.project.single {
-    background-color: white;
-    margin: 15px !important;
-    padding: 0;
+.section h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 24px;
+    margin-bottom: 3px;
 }
 
-.double, .single {
-    min-width: 300px;
+.section h4 {
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+
+.section h5 {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.section-body {
+    color: black;
+    margin: 0 15px 30px 15px;
     padding: 0px;
-    margin: 10px;
+    min-width: 270px;
 }
-
-.section {
-    padding: 0;
-    margin: 15px;
-
-}
-
-.details {
-    padding: 15px;
-}
-
-.col h2 {
-    color: white;
-    background-color: black;
-    margin: 0;
-}
-
 
 .section-content {
     background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    overflow: hidden;
+    padding: 20px 20px 20px 20px;
 }
 
-.section ul {
+.section-content ul {
     list-style: none;
-    font-size: 13px;
     padding: 0;
+}
+
+.section-footer {
+    background-color: white;
+    width: 100%;
+}
+
+.section-footer img {
+    width: 100%;
+}
+
+/* ------------------------------------------------------ */
+
+.images {
+    margin: 0;
+}
+
+.large-img, .small-img {
+    padding: 0 0 15px 0;
 }
 
 .small-img img {
     width: 100%;
-    max-width: 210px;
-    padding-bottom: 15px;
+    max-width: 200px;
 }
 
 .large-img img{
     width: 100%;
-    padding-bottom: 15px;
 }
 
 .caption {
-    font-size: 10px;
+    font-size: 12px;
     margin-top: 15px;
     margin-bottom: 0;
-}
-
-.section-footer {
-              width: 100%;
-              padding: 0;
-              float: bottom;
-              background: transparent;
-              border: none;
-              overflow: hidden;
-}
-
-.section-footer img {
-                width: 100%;
-                float: bottom;
 }
 
 .auto-resizable-iframe {
@@ -199,19 +197,20 @@ h3 {
   height: 100%;
 }
 
-
+/* ------------------------------------------------------- */
 
 @media only screen and (max-width: 500px) {
 
-    #photog {
-    bottom: 3%;
+  #photog {
+      bottom: 3%;
+  }
+
+  .section-title {
+    padding-left: 15px;
     }
 
-  .project {
+  .section {
       margin: 0;
   }
 
-  .project-title  {
-      margin-left: 15px;
-  }
-}
+} 

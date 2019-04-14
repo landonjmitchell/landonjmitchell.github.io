@@ -1,5 +1,5 @@
 .container { 
-            padding: 0;
+            padding: 0 0 50px 0;
             background-color: black;
             max-width: 1000px;
             min-height: 1200px;
@@ -25,7 +25,7 @@ a:hover {
          background-color: white;
          font-family: 'Amatic SC', cursive;
          padding-top: 10px;
-         margin: 0;
+         margin: 10px 0 30px 0;
          position: relative;
 }
 
@@ -72,147 +72,72 @@ a:hover {
 }
 
 
+/* ---------------------------------------------------------------- ABOUT -- */
 
-
-
-/* -------------------------------------------------------------- MAIN -- */
-
-.main {
-       margin: 0 15px 0 15px;
+.section-header {
+    color: white;
+    margin: 0;
 }
 
-
-.main h2 {
-           font-size: 26px;
-           margin-bottom: 10px;
-           font-family: 'Amatic SC', cursive;
+.section-title {
+    padding-left: 30px;
 }
 
-.main h3 {
-            font-family: 'Amatic SC', cursive;
-           font-size: 24px;
-           margin-bottom: 5px
+.section-title h2 {
+    font-family: 'Amatic SC', cursive;  
+    font-size: 28px;
 }
 
-.main h4 {
-    font-size: 14px;
-    margin-bottom: 5px;
-}
-
-.main h5 {
+.section {
+    margin: 0 15px 0 15px;
     font-size: 13px;
+}
+
+.section h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 24px;
+    margin-bottom: 3px;
+}
+
+.section h4 {
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+
+.section h5 {
+    font-size: 14px;
     margin-bottom: 15px;
 }
 
-.main p{
-         font-size: 13px;
+.section-body {
+    color: black;
+    margin: 0 15px 30px 15px;
+    padding: 0px;
+    min-width: 270px;
 }
 
-
-
-/* ---------------------------------------------------------------- ABOUT -- */
-
-
-.about {
-        padding-left: 10px;
-        border-left: solid 1px black;
-        background-color: white;
-        margin: 0 15px 15px 15px;  
-        display: flex;  
-        flex-direction: column;
-        justify-content: space-between;
-}
-
-.about-content {
-    width: 100%;
-    padding: 20px 20px 0 20px;
-}
-
-.about-footer {
-    border: 0;
-    float: bottom;
-    width: 100%;
-}
-
-.about-footer img{
-    float: bottom;
-    width: 100%;
-}
-
-/* -------------------------------------------------------------- TALENTS --  */
-
-.talents {
-          height: 100%;
-          background-color: white;
-          margin: 0 15px 0 15px;
-}
-
-.skills {
-    padding-right: 15px;
+.section-content {
+    background-color: white;
+    padding: 20px 20px 20px 20px;
 }
 
 .skill {
-    margin-top: 10px;
+    margin-top: 15px;
+    min-width: 150px;
 }
 
-.talents ul {
-          margin: 0px 0 15px 0;
-          padding-left: 18px;
-          list-style: square;
-          min-width: 150px;
+.skill ul {
+    padding-left: 17px;
+    list-style-type: square;
 }
 
-.talents li {
-             padding-left: 0px;
-             padding-bottom: 2px;
-             font-size: 12px;
+.section-footer {
+    background-color: white;
+    width: 100%;
 }
 
-/* ------------------------------------------------------------ MORE ABOUT -- */
-
-
-.more-about.title {
-            margin-bottom: 0;
-            margin-top: 30px;
-}
-
-.more-about.title h1 {
-                font-size: 26px;
-                font-family: 'Amatic SC', cursive;
-                margin-bottom: 0;
-                padding-bottom: 0;
-}
-.more-about {
-             color: #CCC;
-             margin: 20px;
-}
-
-
-.more-about h2 {
-                font-size: 22px;
-                font-family: 'Amatic SC', cursive;
-}
-
-.more-about p {
-               font-size: 13px;
-}
-
-
-.project-header {
-    font-family: 'Amatic SC', cursive;
-    margin: 0 15px 0 15px;
-    color:white;
-}
-
-.project-header div.col-sm {
-    padding: 0;
-}
-
-.project-header h2 {
-    font-size: 28px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    padding: 0 !important;
+.section-footer img {
+    width: 100%;
 }
 
 
@@ -222,11 +147,11 @@ a:hover {
       bottom: 3%;
   }
 
-  .main {
-      margin: 0;
-  }
+  .section-title {
+    padding-left: 15px;
+    }
 
-  .cards {
+  .section {
       margin: 0;
   }
 
