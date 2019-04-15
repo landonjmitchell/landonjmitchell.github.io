@@ -1,0 +1,235 @@
+/* -------------------------------------------------------- CONTAINER -- */
+
+
+.container { 
+    max-width: 1000px;
+    min-height: 1200px;
+    padding: 0 0 25px 0;
+    background-color: black;
+    font-family: 'Muli', sans-serif;
+    color: #222;
+}
+
+a {
+    color:#222;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: rgb(208, 55, 55)
+}
+
+
+ /* ---------------------------------------------------------- HEADER -- */
+
+
+ 
+.header {
+    background-color: white;
+    font-family: 'Amatic SC', cursive;
+    margin: 10px 0 20px 0;
+    position: relative;
+}
+
+.header h1 {
+    float: left;
+    padding-bottom: 0px;
+    margin-left: 5%;
+}
+
+.header h1 a {
+    text-decoration: none;
+}
+
+#bridge { 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#photog {
+    width: 4%;
+    position: absolute;
+    bottom: 6.5%;
+    right: 11%;
+    z-index: 0;
+
+}
+
+
+/* -------------------------------------------------------------- NAV LIST -- */
+
+
+.navlist {
+    float: right;
+    font-size: 22px;
+    list-style-type: none;
+    text-align: right;
+}
+
+.navlist ul {
+    margin: 0;
+}
+
+.navlist li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+}
+
+
+/* -------------------------------------------------------- SECTION HEADER -- */
+
+
+.section-header {
+    color: white;
+    margin: 0;
+}
+
+.section-title {
+    padding-left: 30px;
+}
+
+.inner-title {
+    padding-left: 0;
+}
+
+.section-title h2, .inner-title h2 {
+    font-family: 'Amatic SC', cursive;  
+    font-size: 28px;
+}
+
+
+/* -------------------------------------------------------- SECTION BODY -- */
+
+
+.section {
+    margin: 0 15px 10px 15px;
+    font-size: 13px;
+    overflow: hidden;
+}
+
+.section h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.section h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 24px;
+    margin-bottom: 3px;
+}
+
+.section h4 {
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+
+.section h5 {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.section-body {
+    color: black;
+    margin: 0 15px 15px 15px;
+    padding: 0px;
+}
+
+.section-content {
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    min-width: 300px;
+}
+
+.section-content-dark {
+    background-color: black;
+    color: #CCC;
+    min-width: 200px;
+    padding: 10px 10px 10px 10px;
+}
+
+.section-content-white {
+    min-width: 200px;
+    padding: 20px 20px 20px 20px;
+}
+
+
+/* -------------------------------------------------------- SECTION FOOTER -- */
+
+
+.section-footer {
+    background-color: white;
+    width: 100%;
+}
+
+.section-footer img {
+    width: 100%;
+}
+
+.skill {
+    margin-top: 10px;
+    min-width: 150px;
+}
+
+.skill ul {
+    padding-left: 17px;
+    list-style-type: square;
+}
+
+
+/* ---------------------------------------------------------------- FOOTER -- */
+
+
+.full-width-image {
+    width: 100%;
+}
+
+.whiteout {
+    width: 100%;
+    padding: 40px 0 20px 0;
+    background-color: white;
+}
+
+.item {
+    margin-bottom: 10px;
+}
+
+.item h3 {
+    margin-bottom: 0px;
+    font-size: 15px;
+    font-family: 'Muli', sans-serif;
+
+}
+
+.item p {
+    margin-bottom: 0px;
+}
+
+.final-image {
+    float: bottom;
+    width: 100%;
+    transform: rotateY(180deg);
+    background-color: white;
+}
+
+
+@media only screen and (max-width: 500px) {
+
+  #photog {
+      bottom: 3%;
+  }
+
+  .section-title {
+    padding-left: 15px;
+    }
+
+  .section {
+      margin: 0;
+  }
+
+  .section-content {
+    min-width: 200px;
+    }
+
+} 
