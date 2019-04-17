@@ -1,8 +1,8 @@
 /* ------------------------------------------------------- */
 
 ul {
-    list-style-type: square;
-    padding-left: 17px;
+    list-style-type: none;
+    padding-left: 0px;
 }
 
 
