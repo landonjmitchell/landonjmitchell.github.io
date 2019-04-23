@@ -16,33 +16,31 @@
     padding-left: 15px;
 }
 
-
-#wheelbarrow {
-    position: absolute;
-    bottom: 2%;
-    right: 7%;
-    width: 25%;
+.images {
+    margin: 0;
 }
 
-#machine {
-    position: absolute;
-    bottom:20%;
-    left: 5%;
-    width: 35%;
+.large-img, .small-img {
+    padding: 0 0 15px 0;
 }
+
+.small-img img {
+    width: 100%;
+    max-width: 200px;
+}
+
+.large-img img{
+    width: 100%;
+}
+
+.caption {
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
 
 @media only screen and (max-width: 500px) {
-
-    #wheelbarrow {
-        bottom: 1.5%;
-    }
-
-    #machine {
-    position: absolute;
-    bottom: 1%;
-    left: 5%;
-    width: 35%;
-    }
 
     .job-description:nth-child(odd) {
     padding: 0;
