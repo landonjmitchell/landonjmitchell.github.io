@@ -33,6 +33,13 @@ ul {
     margin-bottom: 0;
 }
 
+/*------------------------------------------------------------ VIDEO -- */
+
+.video {
+    margin: 0 auto;
+    display: block;
+}
+
 /* ----------------------------------------------------------- IFRAME -- */
 
 .auto-resizable-iframe {
@@ -40,7 +47,7 @@ ul {
   margin: 0px auto;
 }
 
-.auto-resizable-iframe > div {
+.auto-resizable-iframe  div {
   position: relative;
   padding-bottom: 75%;
   height: 0px;
