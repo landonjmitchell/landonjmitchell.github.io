@@ -19,6 +19,17 @@ a:hover {
     color: rgb(208, 55, 55)
 }
 
+strong {
+        color: rgb(208, 55, 55);
+        font-weight: bolder;
+        font-size: 14px;
+}
+
+a.strong-link {
+    color: rgb(208, 55, 55);
+    font-weight: bolder;
+    font-size: 14px;
+}
 
  /* ---------------------------------------------------------- HEADER -- */
 
