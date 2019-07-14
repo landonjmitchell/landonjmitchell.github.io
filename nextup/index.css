@@ -87,6 +87,10 @@ a.strong-link {
     min-width: 250px;
 }
 
+.section-content-dark a {
+    color: #FFCC99
+}
+
 
 .caption {
     font-size: 12px;
