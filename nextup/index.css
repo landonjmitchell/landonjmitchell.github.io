@@ -124,9 +124,26 @@ img.preview {
 
 @media only screen and (max-width: 500px) {
 
+  .header {
+      padding-top: 0px;
+  }
+
+  .header li {
+      font-size: 18px;
+  }
+
+  .header ul {
+      padding-inline-start: 10px;
+  }
+
+  .header h1 a {
+      font-size: 35px;
+  }
+
   .header h4 {
-      margin-left: 5%;
-      margin-top: auto;
+      font-size: 10px;
+      /* margin-left: 6%; */
+      /* margin-top: auto; */
   }
 
 } 
