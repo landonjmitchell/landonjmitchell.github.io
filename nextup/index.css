@@ -101,8 +101,9 @@ a.strong-link {
 }
 
 
-.demo {
+.section-body.demo {
     min-width: 200px;
+    margin-left: 0;
 }
 
 .video {
