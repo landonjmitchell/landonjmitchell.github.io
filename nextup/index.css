@@ -1,3 +1,98 @@
+.body {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+a {
+    color:#FFCC99;
+    text-decoration: underline;
+}
+
+strong {
+        color: rgb(208, 55, 55);
+        font-weight: bolder;
+        font-size: 15px;
+}
+
+a.strong-link {
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+ /* ---------------------------------------------------------- HEADER -- */
+
+
+.header {
+    padding-top: 40px;
+}
+
+.header h1 {
+    float: none;
+}
+
+.header h1 a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+    color: white;
+    font-size: 65px;
+}
+
+
+.header h4 {
+    margin-left: 17%;
+    font-family: 'Robot', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    color: white;
+    margin-top: -15px;
+}
+
+
+.header li {
+        color: white;
+}
+
+
+.header {
+    background-image: url("../graphics/sunrise.png");
+    background-position: center;
+}
+
+/* -------------------------------------------------------------------*/
+
+.container {
+    font-family: 'Roboto', sans-serif
+}
+
+.section {
+    margin: 0;
+    font-size: 14px;
+}
+
+.section h2 {
+    font-size: 25px;
+}
+
+.section h2, .section h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.section h3 {
+    font-size: 18px;
+}
+
+.section-content-dark {
+    min-width: 250px;
+}
+
+
+.caption {
+    font-size: 12px;
+}
+
+
 .demo {
     min-width: 200px;
 }
@@ -17,3 +112,12 @@ img.preview {
 .section-content-white {
     min-width: 250px;
 }
+
+@media only screen and (max-width: 500px) {
+
+  .header h4 {
+      margin-left: 5%;
+      margin-top: auto;
+  }
+
+} 
