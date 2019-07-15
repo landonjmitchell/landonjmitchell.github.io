@@ -26,9 +26,16 @@ a.strong-link {
     padding-top: 20px;
 }
 
+
 .header h1 {
     float: none;
 }
+
+
+.header a {
+    color: white;
+}
+
 
 .header h1 a {
     font-family: 'Roboto', sans-serif;
@@ -50,7 +57,7 @@ a.strong-link {
 
 
 .header li {
-        color: white;
+    color: white;
 }
 
 
