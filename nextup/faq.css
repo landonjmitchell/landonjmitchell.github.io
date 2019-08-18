@@ -1,0 +1,208 @@
+body {
+    font-size: 15px;
+    font-weight: 300;
+    background-color: black;
+}
+
+a {
+    color: rgb(208, 55, 55);
+    text-decoration: underline;
+}
+
+
+a.strong-link {
+    background-color: rgb(208, 55, 55);
+    color: white;
+    padding: 7px 30px 7px 30px;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+a.strong-link:hover {
+    opacity: 0.9;
+}
+
+ /* ---------------------------------------------------------- HEADER -- */
+
+
+.header {
+    padding-top: 20px;
+    margin-top: 0px;
+}
+
+.header img {
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -ms-filter: fliph; /*IE*/
+    filter: fliph; /*IE*/
+}
+
+.header h1 {
+    float: none;
+}
+
+
+.header a {
+    color: white;
+}
+
+
+.header h1 a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+    color: white;
+    font-size: 80px;
+}
+
+
+.header h4 {
+    margin-left: 19%;
+    font-family: 'Robot', sans-serif;
+    font-weight: 100;
+    font-size: 17px;
+    color: white;
+    margin-top: -15px;
+}
+
+
+.header li {
+    color: white;
+}
+
+
+.header {
+    background-color: black;
+    background-image: url("../graphics/sunrise.png");
+    background-position: center;
+}
+
+/* -------------------------------------------------------------------*/
+
+.container {
+    font-family: 'Roboto', sans-serif
+}
+
+.section {
+    margin: 0;
+    font-size: 13px;
+}
+
+.section-content {
+    min-width: 350px;
+}
+
+.section p.centered {
+    text-align: center;
+}
+
+.section h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.section h2, .section h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.section-header h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.section-title {
+    padding-left: 15px
+}
+
+.section-content-dark {
+    min-width: 250px;
+    text-align: left;
+}
+
+.section-content-dark a {
+    color: #FFCC99
+}
+
+
+.full-width-image {
+    margin-top: 20px;
+}
+
+.caption {
+    font-size: 12px;
+}
+
+.section-body {
+    margin-bottom: 30px;    
+}
+
+.section-body.demo {
+    min-width: 200px;
+    margin-left: 0px;
+}
+
+.video {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+img.preview {
+    width: 100%;
+    height: auto;
+}
+
+.section-content-white {
+    min-width: 250px;
+    text-align: left;
+}
+
+@media only screen and (max-width: 500px) {
+
+  .header {
+      padding-top: 0px;
+  }
+
+  .header li {
+      font-size: 18px;
+  }
+
+  .header ul {
+      padding-inline-start: 10px;
+  }
+
+  .header h1 a {
+      font-size: 35px;
+  }
+
+  .header h4 {
+      font-size: 10px;
+      /* margin-left: 6%; */
+      /* margin-top: auto; */
+  }
+
+  .section-content {
+    min-width: 250px;
+}
+
+  .section-body.demo {
+        margin-left: 15px;
+  }
+
+} 
