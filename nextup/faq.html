@@ -68,32 +68,28 @@
                     
                     <h3>Why didn't my alarm go off?</h3>
 
-                    <p>Next Up won't play from the background unless the alarm has been activated. See the settings tab for more info, and for options to set reminders.</p>
+                    <p>Next Up won't play from the background unless the alarm has been activated. See 'Alarm Activation' below, or check out the 'Settings' tab for more info, and for options to set reminders.</p>
                     
-                    <p>If Next Up is force-quit it can't play the alarm from the background, and will send notifications instead. The app will also be closed if the device is rebooted, or the OS or app are updated. It's never a bad idea to open the app for a second before bed just in case it was closed for some reason.</p>
+                    <p>The alarm will be deactivated if Next Up is force-quit, the device is rebooted, or the OS or app are updated. It's never a bad idea to open the app for a second before bed just in case it was closed for some reason.</p>
 
-                    <p>No third party iOS app is immune from occasional failure. Even Apple's built-in apps crash on me sometimes. When waking up on time is critical, consider setting a backup alarm for a bit later in the native Clock app.</p>
+                    <p>Bugs do also happen, and no third party iOS app is immune from occasional failure. When waking up on time is critical, consider setting a backup alarm for a bit later in the native Clock app.</p>
 
-                    <p>With that said, if you are still having issues, or if the backup notifications aren't being delivered, please do <a
+                    <p>But if you are still having problems getting the alarm to play, please do <a
                     href="mailto:next_up_bugs@landonjmitchell.com">send me a bug report</a> so I can investigate.</p>
 
                     <h3>Why was the alarm so quiet/silent?</h3>
 
-                    <p>If set to 'Device Volume' in the alarm settings screen, the alarm will play at the volume your device is set to when it goes off. Make sure it's loud enough to wake you up.</p>
+                    <p>If the alarm is set to 'Device Volume' in the 'Alarm Settings' screen, the alarm will play at the volume your device is set to when it goes off. Make sure it's loud enough to wake you up.</p>
 
-                    <p>If the alarm can't play from the background (see above) it will send notifications playing the backup sound. These will only be audible if the device isn't muted – meaning the mute switch and Do Not Disturb mode are off, and the volume is not all the way down.</p>
+                    <p>If the alarm isn't activated, no audio will play if the device is muted.</p>
 
                     <h3>What happened to the option to fade in the volume?</h3>
                     
                     <p>Unfortunately this feature was causing reliability issues for some users, and has been disabled for now. I hope to include it again in the future.</p>
 
-                    <h3>What happens if there aren't any new episodes for the podcast I chose for the alarm?</h3>
-                    
-                    <p>In that case Next Up will play the backup sound selected in the Alarm Settings screen.</p>
-
                     <h3>Can I be woken up to an alarm sound first so I don't miss the beginning of the podcast?</h3>
 
-                    <p>Absolutely, kind of. There's no built-in way to achieve this yet, but you can set an alarm without a podcast for a couple minutes before your regular one to give you time to wake up a bit. Hitting 'Stop' won't deactive the alarm if there is another one set to go off within 15 minutes.</p>
+                    <p>Sort of. There's no built-in way to achieve this yet, but you can set an alarm without a podcast for a few minutes before your regular one to give you time to wake up a bit. Tapping 'Stop' won't deactive the alarm if there is another one set to go off within 15 minutes, but the second one won't play if the first one is currently snoozed (I will try to fix this in the future).</p>
 
  
         
@@ -110,23 +106,21 @@
 
                     <h3>Why do I need to activate the alarm after I've already set it?</h3>
 
-                    <p>Next Up uses some power when activated and in the background. Waiting to activate until before bed helps save battery power. If it hasn't been activated, the alarm will still sound if Next Up is open in the foreground with the screen on (Next Up will prevent the screen from automatically turning off). Otherwise it will send notifications to try to wake you up.</p>
+                    <p>Next Up uses some power when activated and in the background. Waiting to activate until before bed helps conserve battery power.</p>
 
-                    <p>You can enable 'Always Activated' mode from the settings screen if you don't want to worry about remembering to activate it. Just keep an eye on the battery and plug in when you can. </p>
+                    <p>You can enable 'Always Activated' mode from the settings screen if you don't want to worry about remembering to activate it. </p>
+
+                    <h3>What happens if the alarm isn't activated?</h3>
+
+                    <p>If not activated, the alarm will only play if the app is open in the foreground with the screen on (Next Up will prevent the screen from automatically turning off). Otherwise it will send notifications. The notifications will only be audible if the device isn't muted. To turn the alarm off completely, disable it in the 'Alarms' tab.</p>
 
                     <h3>What does a yellow border around the alarm mean?</h3>
 
-                    <p>With 'Activation Backup' turned on, Next Up will keep running in the background after it has been opened as long as the device is charging. Unplugging the device will result in the alarm being deactivated. Manually activate the alarm to be sure this doesn't happen.</p> 
-                    
-                    <p>When white noise is playing, Next Up will also keep playing in the background. Both of these modes are indicated by a yellow border around the alarm on the Next Up tab.</p>
-
-                    <h3>What does a red border around the alarm mean?</h3>
-
-                    <p>A red border indicates that the alarm is not activated. The alarm will still sound if Next Up is open in the foreground with the screen on (Next Up will prevent the screen from automatically turning off). Otherwise it will send notifications to try to wake you up. The notifications will only be audible if the device isn't muted – meaning the mute switch and Do Not Disturb mode are off, and the volume is not all the way down. </p>
+                    <p>It means the alarm is currently activated only because the device is charging or white noise is playing. Unplugging the device and/or stopping the white noise will deactivate the alarm. Manually activate the alarm to be sure this doesn't happen. When an alarm is manually activated, the colored border will flash green and then disappear.</p> 
 
                     <h3>When is the alarm automatically deactivated?</h3>
 
-                    <p>If there are no alarms set, Next Up will automatically deactive the alarm to conserve power. The alarm will also be deactivated when either 'Stop' or 'Keep Playing' are tapped after an alarm goes off. The podcast will continue to play even when the alarm is deactivated. </p>
+                    <p>If there are no alarms set, Next Up will automatically deactive the alarm to conserve power. By default, the alarm will also be deactivated when either 'Stop' or 'Keep Playing' are tapped after an alarm goes off. The podcast will continue to play even when the alarm is deactivated. </p>
             
                 </div>
                 <div class="section-footer">
@@ -144,21 +138,22 @@
                     <p>It can take a minute or two for changes in your Podcasts library to show up in Next Up. After a couple of minutes you can pull down on the Podcast or Alarms screens to re-sync the podcasts.</p> 
                     
                     <p>You can also check to make sure the episodes are downloaded to the device and not just in the cloud. If they're just in the cloud there will be a cloud icon next to them in your Podcasts library. </p>
+
+                    <h3>If a new episode is released overnight, will it play in the morning?</h3>
                     
-                    <h3>Why does it say the podcast art can't be downloaded when it shows up fine in the Podcasts app?</h3>
+                    <p>Next Up checks for the newest episodes on your device before the alarm plays, so as long as automatic downloads are turned on in Apple Podcasts, the newest episode should play in the morning (if 'Play Newest First' is turned on in the alarm settings). 
+                    </p>
+
+                    <h3>What happens if there aren't any new or matching episodes for the podcast I chose for the alarm?</h3>
                     
-                    <p>This seems to be a bug on Apple's end. In my experience, art that couldn't be found at first randomly shows up a couple days or weeks later. One thing you can try is deleting that Podcast and its episodes from your library and then re-downloading them, but it's no guarantee.
+                    <p>In that case Next Up will play the backup sound selected in the Alarm Settings screen.</p>
+                    
+                    <h3>Why does it say the podcast art can't be downloaded?</h3>
+                    
+                    <p>This seems to be a bug on Apple's end. In my experience, art that couldn't be found at first sometimes randomly shows up a couple days or weeks later. One thing you can try is deleting that Podcast and its episodes from your library and then re-downloading them, but it's no guarantee.
                     </p>
                     
                     <p>Next Up looks for new art each time it syncs with the Podcasts app, so if it does get fixed, the missing art should show up automatically.</p>
-
-                    <h2>BATTERY:</h2>
-            
-                    <h3>Why is my battery draining more quickly? </h3>
-            
-                    <p>Apple requires Next Up to stay open behind the scenes to play alarms from the background. It's not really doing anything, but it still consumes some power. To avoid unnecessary power drain, deactivate the alarm until you are ready for bed. It's strongly recommended to keep your device plugged in overnight while using the Next Up.
-        
-                    <p>From the 'Settings' tab, you can also set reminders to let you know when an alarm is set but not activated.</p>
         
                 </div>
                 <div class="section-footer">
@@ -169,6 +164,17 @@
 
             <div class="col section-body">
                 <div class="section-content">
+
+                    <h2>BATTERY:</h2>
+            
+                    <h3>Will this app drain my battery more quickly? </h3>
+            
+                    <p>Apple requires Next Up to stay open behind the scenes to play alarms from the background. It's not really doing anything, but it does still consume some power. To avoid unnecessary power drain, deactivate the alarm until you're ready for bed. It's also recommended to keep your device plugged in overnight while using Next Up.</p>
+
+                    <p>Be sure to tap 'Stop' or 'Keep Playing' when the alarm plays so that it will be deactivated automatically.</p>
+        
+                    <p>From the 'Settings' tab, you can also set reminders to let you know when an alarm is set but not activated.</p>
+
                     <h2>DOWNTIME:</h2>
 
                     <h3>How can I set the sleep timer podcast to play quietly and the alarm to play loudly?</h3>
@@ -178,10 +184,6 @@
                     <h3>How can I set the white noise to play quietly and the alarm to play loudly?</h3>
 
                     <p>You can use the same steps as for the sleep timer, or you can separately adjust the white noise volume on the Downtime screen. This will change the white noise volume without affecting the device volume. </p>
-
-                    <h3>What effect will white noise or the sleep timer have on my battery?</h3>
-
-                    <p>Using white noise or the sleep timer will cause the battery to drain faster. It's highly recommended to keep your device plugged overnight, especially when using either of these. </p>
 
                     
                 </div>
@@ -219,7 +221,7 @@
             
                     <p>I'm not! Right now it's just a pet project. It might not always be free for new users, but it will never include instrusive pop-up or banner ads of any kind. On a deeply personal level, I just absolutely can't stand them. At most I would consider clearly-labeled sponsored 'Featured' podcasts.</p> 
 
-                    <p>There's also a chance I would add some premium features in the future as in-app purchases, but I'm not sure what they'd be yet. You'll never have to pay for anything you're already using.</p>   
+                    <p>There's also a chance I would add some premium features in the future as in-app purchases, but I'm not sure what they'd be yet. You'll never have to pay for anything you're already using. I'll also never collect or sell your data.</p>   
                     
                     <h3>Are you going to add feature X, Y, or Z?</h3>
             
@@ -231,7 +233,7 @@
                     href="mailto:next_up_support@landonjmitchell.com">next_up_support@landonjmitchell.com</a>
                     </p>
 
-                    <p>This is the pet project of a lone developer, so I'll do my best to respond as quickly as possible, but patience is always appreciated.</p>
+                    <p>Next Up is the pet project of a lone developer, so I'll do my best to respond as quickly as possible, but patience is always appreciated.</p>
             
 
             

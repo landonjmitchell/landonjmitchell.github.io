@@ -1,6 +1,7 @@
-.body {
+body {
     font-size: 16px;
     font-weight: 300;
+    background-color: black;
 }
 
 a {
@@ -8,15 +9,19 @@ a {
     text-decoration: underline;
 }
 
-strong {
-        color: rgb(208, 55, 55);
-        font-weight: bolder;
-        font-size: 15px;
-}
 
 a.strong-link {
-    font-weight: bolder;
-    font-size: 15px;
+    background-color: rgb(208, 55, 55);
+    color: white;
+    padding: 7px 30px 7px 30px;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+a.strong-link:hover {
+    opacity: 0.9;
 }
 
  /* ---------------------------------------------------------- HEADER -- */
@@ -24,8 +29,17 @@ a.strong-link {
 
 .header {
     padding-top: 20px;
+    margin-top: 0px;
 }
 
+.header img {
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -ms-filter: fliph; /*IE*/
+    filter: fliph; /*IE*/
+}
 
 .header h1 {
     float: none;
@@ -42,15 +56,15 @@ a.strong-link {
     font-weight: 100;
     text-decoration: none;
     color: white;
-    font-size: 65px;
+    font-size: 80px;
 }
 
 
 .header h4 {
-    margin-left: 17%;
+    margin-left: 19%;
     font-family: 'Robot', sans-serif;
     font-weight: 100;
-    font-size: 14px;
+    font-size: 17px;
     color: white;
     margin-top: -15px;
 }
@@ -62,6 +76,7 @@ a.strong-link {
 
 
 .header {
+    background-color: black;
     background-image: url("../graphics/sunrise.png");
     background-position: center;
 }
@@ -75,10 +90,20 @@ a.strong-link {
 .section {
     margin: 0;
     font-size: 14px;
+    text-align: center;
+}
+
+.section p.centered {
+    text-align: center;
+}
+
+.section h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
 }
 
 .section h2 {
-    font-size: 25px;
+    font-size: 18px;
 }
 
 .section h2, .section h3 {
@@ -90,8 +115,10 @@ a.strong-link {
     font-size: 18px;
 }
 
+
 .section-content-dark {
     min-width: 250px;
+    text-align: left;
 }
 
 .section-content-dark a {
@@ -100,17 +127,20 @@ a.strong-link {
 
 
 .full-width-image {
-    margin-top: 75px;
+    margin-top: 20px;
 }
 
 .caption {
     font-size: 12px;
 }
 
+.section-body {
+    margin-bottom: 30px;    
+}
 
 .section-body.demo {
     min-width: 200px;
-    margin-left: 0;
+    margin-left: 0px;
 }
 
 .video {
@@ -127,6 +157,7 @@ img.preview {
 
 .section-content-white {
     min-width: 250px;
+    text-align: left;
 }
 
 @media only screen and (max-width: 500px) {
@@ -151,6 +182,10 @@ img.preview {
       font-size: 10px;
       /* margin-left: 6%; */
       /* margin-top: auto; */
+  }
+
+  .section-body.demo {
+        margin-left: 15px;
   }
 
 } 
