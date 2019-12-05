@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="stocks.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="stocks.js"></script>
+
+    <title>Stock Manager</title>
+  </head>
+  <body>
+
+    <div class="container">
+
+      <div class="row header">
+        <div class="col-sm-7 title">
+            <h1>Manage Your Money</h1>
+        </div>
+
+        <div class="col-sm-5 total">
+          <div class="value">
+            <h2> <span class="toport">Portfolio Value:</span> </h2>
+            <h3> <span id="totalValue">$0.00 </span></h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="row main">
+        <div class="col-sm-5 transactions p-0">
+
+          <div class="buy">
+              <div class="buyimage">
+                <h2> Buy Low </h2>
+
+                <form class="d-flex w-100 mt-3 " id="buyForm">
+                  <div class="input-group">
+                    <input id="buySymbol" autofocus class="form-control" type="input" placeholder="Symbol">
+                    <input id="buyShares" class="form-control" type="input" placeholder="# Of Shares">
+                    <button class="btn btn-dark btn-sm" id="buySubmit" type="submit">Buy</button>
+                  </div>
+                </form>
+            </div>
+          </div>
+
+          <div id="tradeError">
+            <p class="error"> There was an error with your request.</p>
+          </div>
+
+          <div class="sell">
+            <div class="sellimage">
+
+              <form class="d-flex w-100 mt-3" id="sellForm">
+                <div class="input-group">
+                  <input id="sellSymbol" autofocus class="form-control" type="input" placeholder="Symbol">
+                  <input id="sellShares" class="form-control" type="input" placeholder="# Of Shares">
+                  <button class="btn btn-dark btn-sm" id="sellSubmit" type="submit">Sell</button>
+                </div>
+              </form>
+
+              <h2> Sell High </h2>
+
+            </div>
+
+
+
+          </div>
+        </div>
+
+        <div class="col-sm-7 portfolio">
+          <div class='tableTitle'>
+            <h2 class="portTitle"> Your Portfolio: <span id='refresh'> Refresh </span></h2>
+          </div>
+          <table class="table">
+            <thead>
+              <tr>
+                <a href="#"> <th scope="col" id='symbolHeader'>Symbol <i class="fas fa-sort-down"></i><i class="fas fa-sort-up"></i></th> </a>
+                <th scope="col" id='sharesHeader'>Shares <i class="fas fa-sort-down"></i><i class="fas fa-sort-up"></th>
+                <th scope="col" id='priceHeader'>Share Price <i class="fas fa-sort-down"></i><i class="fas fa-sort-up"></th>
+                <th scope="col" id='totalHeader'>Stock Value <i class="fas fa-sort-down"></i><i class="fas fa-sort-up"></th>
+              </tr>
+            </thead>
+            <tbody id="portfolioBody">
+
+            </tbody>
+          </table>
+          <div class="bottomTotal">
+            <p>Portoflio Total: <span id="tableTotal"> $0.00</span> </p>
+          </div>
+        </div>
+      </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+  </body>
+</html>

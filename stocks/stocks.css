@@ -1,0 +1,214 @@
+.container { margin-top: 20px;
+}
+
+.header {margin-bottom: 15px;
+        font-family: 'Montserrat', sans-serif;
+
+}
+
+.title { background: url('title.jpg') no-repeat center center;
+         background-size:cover;
+         min-height: 250px;
+}
+
+.title h1 { background: rgba(35, 35, 35, .4);
+            margin-top: 85px;
+            color: #DDD;
+            max-width: 250px;
+}
+
+.total {min-height: 250px;
+        padding-right: 0;
+}
+
+.value {
+         color: #DDD;
+         text-align: center;
+         height: 100%;
+         background: url("paper.jpg") no-repeat center center;
+         background-size: cover;
+}
+
+.value h2 {
+            font-size: 1.5em;
+            padding: 30px 0 10px 0;
+            width: 100%;
+            background: rgba(35, 35, 35, .7);
+            margin: 0;
+}
+
+.value h3 {
+            font-size: 3em;
+            width: 100%;
+            background: rgba(35, 35, 35, .7);
+}
+
+.main { margin-bottom: 100px;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+
+}
+
+.buy { min-height: 250px;
+       padding-bottom: 5px;
+}
+
+.buyimage { background: url('laptop.jpg') no-repeat center center;
+         background-size:cover;
+         width: auto;
+         height: 250px;
+}
+
+.buyimage h2 {
+          font-size: 2em;
+          color: #FFF;
+          background: rgba(35, 35, 35, .7);
+          width: 100%;
+          padding: 10px
+}
+
+.form-control {font-size: 12px !important }
+
+#buyForm { width 100%;
+          background: rgba(35, 35, 35, .7);
+          padding: 10px;
+          margin-top: 135px !important;
+
+}
+
+#buysymbol { min-width: 100px;
+}
+
+#buySubmit { min-width: 75px;
+             margin-left: 10px;
+             font-size: 14px;
+             border: solid 1px #EEE;}
+
+#buyShares { margin-left: 5px;
+             border-radius: 0 3px 3px 0;
+}
+
+#tradeError {display: none;
+             background-color: #ffdde5;
+             border-radius: 10px;
+             padding: 20px;
+             margin: 10px;
+}
+
+#tradeError p {margin: 0;}
+
+.sell { min-height: 250px;
+        padding-top: 5px;
+}
+
+.sellimage h2 {
+          font-size: 2em;
+          color: #FFF;
+          background: rgba(35, 35, 35, .7);
+          width: 100%;
+          padding: 10px;
+          margin-top: 135px
+
+}
+
+.sellimage { background: url('value.jpg') no-repeat center center;
+         background-size:cover;
+         width: 100%;
+         height: 250px;
+}
+
+#sellForm { padding: 10px;
+            width: 100%;
+            background: rgba(35, 35, 35, .7);
+            margin-top: 0 !important;
+}
+
+#sellsymbol { min-width: 100px;
+}
+
+#sellSubmit { min-width: 75px;
+             margin-left: 10px;
+             font-size: 14px;
+             border: solid 1px #EEE;
+}
+
+#sellShares { margin-left: 5px;
+             border-radius: 0 3px 3px 0;
+}
+
+.tableTitle { text-align: left; }
+
+
+h2.portTitle {margin-bottom: 5px;
+}
+
+#refresh {
+          font-family: 'Raleway', sans-serif;
+          float: right;
+          font-size: .55em;
+          padding: 8px;
+          margin-top: -2px;
+          border: solid 1px white;
+          border-radius: 5px;
+          cursor:pointer;}
+
+
+.portfolio { margin-top: 0px;
+             padding-right: 0;
+}
+
+.portfolio h2 { width: 100%;
+                background-color: #222;
+                padding: 10px;
+                color: #EEE;
+                font-size: 1.5em;
+}
+
+.table  {margin-bottom: 10px;
+        font-family: 'Open Sans', sans-serif;
+}
+
+.table thead th {cursor: pointer;
+                font-size: bold;
+                background-color: #555;
+                color: #FFF
+}
+
+tr:nth-of-type(even) {
+  background-color: #F9F9F9;
+}
+
+tr .fas {display: none:
+}
+
+.bottomTotal { text-align: left;
+               padding: 10px 10px 10px 20px;
+               background-color: #333;
+               color: #EEE;
+}
+
+.bottomTotal p {margin: 0px;
+}
+
+@media only screen and (max-width: 700px) {
+  .container { margin-top: 0;
+  }
+
+  .title { margin-bottom: 10px;
+  }
+
+  .total { padding-left: 0px;
+  }
+
+  .portfolio {margin-top: 10px;
+              padding: 0;
+  }
+
+  .table {font-size: .8em
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .table thead {font-size: .75em
+  }
+}
