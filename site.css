@@ -22,6 +22,11 @@ a:hover {
 strong {
         color: rgb(208, 55, 55);
         font-weight: bolder;
+        font-size: 16px
+}
+
+h3 strong {
+    font-size: 26px;
 }
 
 a.strong-link {
@@ -104,7 +109,7 @@ a.strong-link {
 
 .section {
     margin: 0 15px 10px 15px;
-    font-size: 13px;
+    font-size: 14px;
     overflow: hidden;
 }
 
