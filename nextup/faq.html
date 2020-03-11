@@ -61,16 +61,71 @@
             </div>
         </div>
 
+        
+
         <div class="row section ">
+            <div class="col section-body">
+                <div class="section-content">
+            
+                    <h2>PODCASTS:</h2>
+            
+                    <h3>Why aren't the podcasts in my Podcasts library showing up in Next Up?</h3>
+            
+                    <p>Next Up can only see podcasts when there is at least one episode downloaded to the device. It’s a limitation
+                        with how apps are able to interact with the native Podcasts app, unfortunately.</p>
+            
+                    <p>This doesn’t mean you always need to have the latest episode pre-downloaded, though. You can download an
+                        episode, set up an alarm, and then delete the episode if you’d like (Though Next Up will warn you that there
+                        currently aren’t any episodes downloaded). So if you're subscribed to a daily podcast, but don’t currently
+                        have any episodes on your phone, it won’t show up on the podcast selection screen of Next Up until you
+                        download one.</p>
+            
+                    <p>To manually download an episode, head to the Podcasts app, tap Library, then the show. Tap on See All
+                        Episodes, then tap an episode. If it just shows the cloud icon, tap one more time to download it to your
+                        phone (Next Up can't access episodes that are only in the cloud).</p>
+            
+                    <p>Once you’ve downloaded an episode to your phone, it may still take a couple of minutes for it to show up in
+                        the Next Up. After a minute or two, try to create or edit an alarm. When you go to pick the podcast, it
+                        should show up. You can also pull down on that screen to force it to re-check your Podcasts library.</p>
+            
+                    <h3>If a new episode is released overnight, will it play in the morning?</h3>
+            
+                    <p>Next Up checks for the newest episodes on your device before the alarm plays, so as long as automatic
+                        downloads are turned on in Apple Podcasts, the newest episode should play in the morning (if 'Play Newest
+                        First' is turned on in the alarm settings).
+                    </p>
+            
+                    <h3>What happens if there aren't any new or matching episodes for the podcast I chose for the alarm?</h3>
+            
+                    <p>In that case Next Up will play the backup sound selected in the Alarm Settings screen.</p>
+            
+                    <h3>Why does it say the podcast art can't be downloaded?</h3>
+            
+                    <p>This seems to be a bug on Apple's end. In my experience, art that couldn't be found at first sometimes
+                        randomly shows up a couple days or weeks later. One thing you can try is deleting that Podcast and its
+                        episodes from your library and then re-downloading them, but it's no guarantee.
+                    </p>
+            
+                    <p>Next Up looks for new art each time it syncs with the Podcasts app, so if it does get fixed, the missing art
+                        should show up automatically.</p>
+            
+                </div>
+                <div class="section-footer">
+                    <img src="../graphics/forrestblack.png">
+                </div>
+            </div>
+
             <div class="col section-body">
                 <div class="section-content">
                     <h2>ALARMS:</h2>
                     
                     <h3>Why didn't my alarm go off?</h3>
 
-                    <p>Next Up can't play from the background if the alarm is deactivated. See 'Alarm Activation' below, or check out the 'Settings' tab for more info, and for options to set reminders.</p>
+                    <p>For now, Next Up relies on the native Apple Music app to play podcasts (there's no way for it to play through the Podcasts app). Make sure the Music app hasn't been removed. If it has, re-downloaded it from the App Store. You will need to force-quit and restart Next Up. If that still isn't working, try uninstalling and reinstalling Next Up.</p>
+
+                    <p>Next Up also can't play from the background if the alarm is deactivated. See 'Alarm Activation' below, or check out the 'Settings' tab for more info, and for options to set reminders.</p>
                     
-                    <p>The alarm will be deactivated if Next Up is force-quit, the device is rebooted, or the OS or app are updated. It's never a bad idea to open the app for a second before bed just in case it was closed for some reason.</p>
+                    <p>In Battery Saving Mode, the alarm will be deactivated if Next Up is force-quit, the device is rebooted, or the OS or app are updated. It's never a bad idea to open the app for a second before bed just in case it was closed for some reason.</p>
 
                     <p>Bugs do also happen, and no third party iOS app is immune from occasional failure. When waking up on time is critical, consider setting a backup alarm for a bit later in the native Clock app.</p>
 
@@ -83,13 +138,9 @@
 
                     <p>If the alarm isn't activated, no audio will play if the device is in silent mode.</p>
 
-                    <h3>What happened to the option to fade in the volume?</h3>
-                    
-                    <p>Unfortunately this feature was causing reliability issues for some users, and has been disabled for now. I hope to include it again in the future.</p>
-
                     <h3>Can I be woken up to an alarm sound first so I don't miss the beginning of the podcast?</h3>
 
-                    <p>Sort of. There's no built-in way to achieve this yet, but you can set an alarm without a podcast for a few minutes before your regular one to give you time to wake up a bit. Tapping 'Stop' won't deactive the alarm if there is another one set to go off within 15 minutes, but the second one won't play if the first one is currently snoozed (I will try to fix this in the future).</p>
+                    <p>Sort of. There's no built-in way to achieve this yet, but you can set an alarm without a podcast for a few minutes before your regular one to give you time to wake up a bit.</p>
 
  
         
@@ -132,41 +183,6 @@
                 </div>
             </div>
 
-            <div class="col section-body">
-                <div class="section-content">
-
-                    <h2>PODCASTS:</h2>
-                    
-                    <h3>Why aren't the podcasts in my Podcasts library showing up in Next Up?</h3>
-
-                    <p>Next Up can only see podcasts for which there is at least one episode downloaded to the device. One an alarm is set, you are welcome to remove the episode, though Next Up will warn you that there are no current episodes.</p>
-                    
-                    <p>Be sure that the episodes are downloaded to the device and not just in the cloud. If they're just in the cloud there will be a cloud icon next to them in your Podcasts library. Tap that icon to download them to your device.</p>
-
-                    <p>It can take a minute or two for changes in your Podcasts library to show up in Next Up. After a couple of minutes you can pull down on the Podcast or Alarms screens to re-sync the podcasts.</p> 
-
-                    <h3>If a new episode is released overnight, will it play in the morning?</h3>
-                    
-                    <p>Next Up checks for the newest episodes on your device before the alarm plays, so as long as automatic downloads are turned on in Apple Podcasts, the newest episode should play in the morning (if 'Play Newest First' is turned on in the alarm settings). 
-                    </p>
-
-                    <h3>What happens if there aren't any new or matching episodes for the podcast I chose for the alarm?</h3>
-                    
-                    <p>In that case Next Up will play the backup sound selected in the Alarm Settings screen.</p>
-                    
-                    <h3>Why does it say the podcast art can't be downloaded?</h3>
-                    
-                    <p>This seems to be a bug on Apple's end. In my experience, art that couldn't be found at first sometimes randomly shows up a couple days or weeks later. One thing you can try is deleting that Podcast and its episodes from your library and then re-downloading them, but it's no guarantee.
-                    </p>
-                    
-                    <p>Next Up looks for new art each time it syncs with the Podcasts app, so if it does get fixed, the missing art should show up automatically.</p>
-        
-                </div>
-                <div class="section-footer">
-                    <img src="../graphics/forrestblack.png">
-                </div>
-            </div>
-
 
             <div class="col section-body">
                 <div class="section-content">
@@ -204,8 +220,6 @@
 
                     <p>Definitely, maybe. I'd absolutely love to get some recommendations. I'll check each one out, and as long as I think it's a reasonably appropriate fit and doesn't clash with my values, I'll add it to a future release. Send your recommendation to <a href="mailto:next_up_recs@landonjmitchell.com">next_up_recs@landonjmitchell.com</a>.</p>
 
-                    <p>Be sure to include a short description of why you like waking up to it, and let me know if you'd be ok with me including your name (or pseudonym).</p>
-
                     <h3>I produce a podcast and think it would be great to wake up to. Will you feature it?</h3>
 
                     <p>Hmm.. maybe. All featured podcasts will be at my discretion based on topics and quality, etc. If the app ever got really popular (not holding my breath), I might consider charging for this, but for now I'll consider it pro-bono on a case-by-case basis. Send me a link to the podcast and a little note about why it might be nice to wake up to.</p>
@@ -220,12 +234,6 @@
             <div class="col section-body">
                 <div class="section-content">
                     <h2>MISC:</h2>
-
-                    <h3>Where are the ads? What's the catch? How are you making money off of this? </h3>
-            
-                    <p>I'm not! Right now it's just a pet project. It might not always be free for new users, but it will never include instrusive pop-up or banner ads of any kind. On a deeply personal level, I just absolutely can't stand them. At most I would consider clearly-labeled sponsored 'Featured' podcasts.</p> 
-
-                    <p>There's also a chance I would add some premium features in the future as in-app purchases, but I'm not sure what they'd be yet. You'll never have to pay for anything you're already using. I'll also never collect or sell your data.</p>   
                     
                     <h3>Are you going to add feature X, Y, or Z?</h3>
             
